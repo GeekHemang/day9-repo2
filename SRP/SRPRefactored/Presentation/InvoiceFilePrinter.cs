@@ -11,7 +11,7 @@ namespace SRPRefactored.Presentation
     class InvoiceFilePrinter
     {
 
-        public void PrintInvoice(Invoice invoice)
+        public static void PrintInvoice(Invoice invoice)
         {
             string template = $"Id :{invoice.Id} " +
                 $",description:{invoice.Description}" +
@@ -19,8 +19,9 @@ namespace SRPRefactored.Presentation
                 $" tax amt is :{invoice.CalcuateTax()}" +
                 $" discount amt is {invoice.CalculateDiscount()}" +
                 $" Final cost is :{invoice.FinalCost()}";
+            
 
-
+           
             StreamWriter sw = new StreamWriter($"{invoice.Id}.txt");
 
             sw.WriteLine( template );
