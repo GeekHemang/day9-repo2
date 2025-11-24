@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OcpViolationApp.Domain
+namespace OcpRefactoredApp.Domain
 {
-    enum FestivalOptions
+    interface IRatePolicy
     {
-        Christmas,NewYear,Normal,Diwali
+        double CalcuateRate();
     }
 }

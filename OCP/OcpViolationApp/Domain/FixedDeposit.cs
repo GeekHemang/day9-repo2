@@ -24,25 +24,28 @@ namespace OcpViolationApp.Domain
         }
 
 
-        private double CalcuateInterest()
+        private double CalcuateRate()
         {
 
             if (_festivalType == FestivalOptions.Christmas)
-                return .07;
+                return .07;//complex 10 lines
 
 
             if (_festivalType == FestivalOptions.NewYear)
-                return .08;
+                return .08;///complex 10 lines
 
 
-             return .06;
+            if (_festivalType == FestivalOptions.Diwali)
+                return .09;
+
+            return .06;///complex 10 lines
         }
 
         public double SimpleInterest {
             get
             {
 
-                return _principleAmount * _duration * CalcuateInterest();
+                return _principleAmount * _duration * CalcuateRate();
             }
         }
 
