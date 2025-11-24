@@ -5,7 +5,11 @@ VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSPViolation", "LSPViolation\LSPViolation.csproj", "{7E5DD92E-B4D2-40E5-AA34-468C61A65C57}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LspRefactor", "LspRefactor\LspRefactor.csproj", "{4168688D-E213-4AC3-AB14-43C20F8703A1}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LspSolution", "LspSolution\LspSolution.csproj", "{E11DF6AD-39D3-4F1E-B01C-8212E1736AB5}"
+>>>>>>> 8fe99041f0d63f1a70df57b668c7af22f7b82b99
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,17 @@ Global
 		{7E5DD92E-B4D2-40E5-AA34-468C61A65C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E5DD92E-B4D2-40E5-AA34-468C61A65C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E5DD92E-B4D2-40E5-AA34-468C61A65C57}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{4168688D-E213-4AC3-AB14-43C20F8703A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4168688D-E213-4AC3-AB14-43C20F8703A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4168688D-E213-4AC3-AB14-43C20F8703A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4168688D-E213-4AC3-AB14-43C20F8703A1}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{E11DF6AD-39D3-4F1E-B01C-8212E1736AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E11DF6AD-39D3-4F1E-B01C-8212E1736AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E11DF6AD-39D3-4F1E-B01C-8212E1736AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E11DF6AD-39D3-4F1E-B01C-8212E1736AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 8fe99041f0d63f1a70df57b668c7af22f7b82b99
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
