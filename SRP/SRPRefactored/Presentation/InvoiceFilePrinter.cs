@@ -19,8 +19,9 @@ namespace SRPRefactored.Presentation
                 $" tax amt is :{invoice.CalcuateTax()}" +
                 $" discount amt is {invoice.CalculateDiscount()}" +
                 $" Final cost is :{invoice.FinalCost()}";
+            
 
-
+           
             StreamWriter sw = new StreamWriter($"{invoice.Id}.txt");
 
             sw.WriteLine( template );

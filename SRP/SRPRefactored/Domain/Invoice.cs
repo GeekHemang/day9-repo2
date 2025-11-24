@@ -44,6 +44,9 @@ namespace SRPRefactored.Domain
                 } }
         public double Cost { get { return _cost; } }
 
+        public static void Foo() {
+            Console.WriteLine("Inside foo");
+        }
       
     }
 }
